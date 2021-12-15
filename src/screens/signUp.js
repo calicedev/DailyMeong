@@ -15,12 +15,12 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={globalStyles.signupTextDark}>Create an Account</Text>
+      <Text style={globalStyles.signupTextDark}>회원가입</Text>
 
       <FormInput
         labelValue={email}
         onChangeText={(userEmail) => setEmail(userEmail)}
-        placeholderText="Email"
+        placeholderText="이메일"
         iconType="user"
         keyboardType="email-address"
         autoCapitalize="none"
@@ -30,7 +30,7 @@ const LoginScreen = ({ navigation }) => {
       <FormInput
         labelValue={password}
         onChangeText={(userPassword) => setPassword(userPassword)}
-        placeholderText="Password"
+        placeholderText="비밀번호"
         iconType="lock"
         secureTextEntry={true}
       />
@@ -40,14 +40,14 @@ const LoginScreen = ({ navigation }) => {
         onChangeText={(userConfirmPassword) =>
           setConfirmPassword(userConfirmPassword)
         }
-        placeholderText="Confirm Password"
+        placeholderText="비밀번호 확인"
         iconType="lock"
         secureTextEntry={true}
       />
 
       {/* Sign Up Button */}
       <FormButton
-        buttonTitle="Sign Up"
+        buttonTitle="회원가입"
         onPress={() => {
           if (password !== confirmPassword) {
             Alert.alert("Passwords do not match");
@@ -109,7 +109,7 @@ const LoginScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Login")}
       >
         <Text style={globalStyles.mediumLoginTextDark}>
-          Have an Account? Sign In
+          이미 계정이 있으신가요? 로그인 하세요.
         </Text>
       </TouchableOpacity>
     </View>
