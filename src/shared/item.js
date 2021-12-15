@@ -183,14 +183,21 @@ export default function Item({ item }) {
                   {item.time}
                   <Text style={styles.subtitle}> m</Text>
                 </Text>
-                <Text style={styles.subtitle}>Time</Text>
+                <Text style={styles.subtitle}>산책 시간</Text>
               </View>
               <View style={globalStyles.paddingHorizontal}>
                 <Text style={styles.title}>
                   {Math.round(item.distance * 100) / 100}
                   <Text style={styles.subtitle}> km</Text>
                 </Text>
-                <Text style={styles.subtitle}>Distance</Text>
+                <Text style={styles.subtitle}>산책 거리</Text>
+              </View>
+              <View style={globalStyles.paddingHorizontal}>
+                <Text style={styles.title}>
+                  {item.calories}
+                  <Text style={styles.subtitle}> cals</Text>
+                </Text>
+                <Text style={styles.subtitle}>칼로리</Text>
               </View>
             </View>
           </View>

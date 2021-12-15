@@ -20,7 +20,6 @@ import {
   calculateAvgSpeed,
   FormattedDistance,
 } from '../shared/globalStyles'
-import CameraScreen from '../screens/camera'
 
 //default function
 export default function Start({ setStartModal, navigation }) {

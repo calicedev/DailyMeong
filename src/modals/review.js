@@ -153,7 +153,7 @@ export default function Review({
                     />
                   </View>
                   <View style={styles.statBoxTextContainer}>
-                    <Text style={styles.statBoxTextHeader}>산책 시간</Text>
+                    <Text style={styles.statBoxTextHeader}>산책 거리</Text>
                     <Text style={styles.statBoxTextHeader}>
                       <Text style={styles.statBoxTextDynamic}>
                         {Math.round(runData.distance * 100) / 100}
@@ -181,11 +181,11 @@ export default function Review({
                   </View>
                 </View>
               </View>
-              {/* <View style={globalStyles.horizontalSpaceAround}>
+              <View style={globalStyles.horizontalSpaceAround}>
                 <View style={styles.statBox}>
                   <View style={styles.logo}>
                     <FontAwesome5
-                      name='running'
+                      name='dog'
                       size={48}
                       color={globalDesign.secondary}
                     />
@@ -218,7 +218,7 @@ export default function Review({
                     </Text>
                   </View>
                 </View>
-              </View> */}
+              </View> 
             </Card>
 
             <Card>
