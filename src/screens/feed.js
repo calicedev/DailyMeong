@@ -87,7 +87,7 @@ export default function Feed({ navigation }) {
           <MaterialIcons name="logout" size={25} color={"white"} />
           {/* <Text style={globalStyles.headerTextLight}>Log Out</Text> */}
         </TouchableOpacity>
-        <Text style={globalStyles.textLight}>산책 기록</Text>
+        <Text style={globalStyles.textLight}>산책 일지</Text>
         <TouchableOpacity
           style={globalStyles.logout}
           onPress={() => firebase.auth().signOut()}
@@ -103,6 +103,7 @@ export default function Feed({ navigation }) {
       markedDates={{
         '2021-12-14': {selected: true, marked: true, selectedColor: '#F3C757'},
         '2021-12-15': {selected: true,marked: true, selectedColor: '#F3C757'},
+        '2021-12-16': {selected: true,marked: true, selectedColor: '#F3C757'},
       }}
      
       theme={{

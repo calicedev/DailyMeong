@@ -42,7 +42,7 @@ const LoginScreen = ({ navigation }) => {
 
       {/* Sign In Button */}
       <FormButton
-        buttonTitle="Login"
+        buttonTitle="로그인"
         onPress={() => {
           firebase
             .auth()
@@ -59,22 +59,6 @@ const LoginScreen = ({ navigation }) => {
       <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
         <Text style={globalStyles.mediumLoginTextDark}>비밀번호 찾기</Text>
       </TouchableOpacity>
-
-      {/* <SocialButton
-        buttonTitle="Sign In with Facebook"
-        btnType="facebook"
-        color="#4867aa"
-        backgroundColor="#e6eaf4"
-        onPress={() => {}}
-      />
-
-      <SocialButton
-        buttonTitle="Sign In with Google"
-        btnType="google"
-        color="#de4d41"
-        backgroundColor="#f5e7ea"
-        onPress={() => {}}
-      /> */}
 
       <TouchableOpacity
         style={styles.forgotButton}
@@ -114,7 +98,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   forgotButton: {
-    marginVertical: 35,
+    marginVertical: 20,
   },
   navButtonText: {
     fontSize: 18,

@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import React, { useState } from "react";
-import { View, Text, Button, StyleSheet, Alert } from "react-native";
+import { View, Text, Button, StyleSheet, Alert  , Dimensions,} from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import FormButton from "../shared/formButton";
 import FormInput from "../shared/formInput";
@@ -67,26 +67,7 @@ const LoginScreen = ({ navigation }) => {
         }}
       />
 
-      <View style={styles.textPrivate}>
-        <Text style={styles.color_textPrivate}>
-          By registering, you confirm that you accept our{" "}
-        </Text>
-        <TouchableOpacity onPress={() => alert("Terms Clicked!")}>
-          <Text
-            style={[styles.color_textPrivate, { color: globalDesign.dark }]}
-          >
-            Terms of service
-          </Text>
-        </TouchableOpacity>
-        <Text style={styles.color_textPrivate}> and </Text>
-        <TouchableOpacity onPress={() => alert("Privacy Policy Clicked!")}>
-          <Text
-            style={[styles.color_textPrivate, { color: globalDesign.dark }]}
-          >
-            Privacy Policy
-          </Text>
-        </TouchableOpacity>
-      </View>
+     
 
       {/* <SocialButton
         buttonTitle="Sign Up with Facebook"
@@ -117,14 +98,15 @@ const LoginScreen = ({ navigation }) => {
 };
 
 export default LoginScreen;
-
+const width = Math.round(Dimensions.get("window").width);
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#f9fafd",
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
+    paddingTop: -10,
+    bottom:85,
   },
   text: {
     fontFamily: "Kufam-SemiBoldItalic",

@@ -209,9 +209,7 @@ export default function Start({ setStartModal, navigation }) {
           <TouchableOpacity onPress={handlePlayPause}>
             <FontAwesome name={playPause} size={56} color="#F3C757" />
           </TouchableOpacity>
-          {/* <TouchableOpacity onPress={NavigatetoCamera}>
-            <AntDesign name="camerao" size={60} color="#F3C757" />
-          </TouchableOpacity> */}
+          
           <TouchableOpacity
             disabled={runPath.length == 0}
             onPress={navigateToReview}>

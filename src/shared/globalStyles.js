@@ -13,7 +13,6 @@ export const globalStyles = StyleSheet.create({
   containerLight: {
     backgroundColor: "white",
     flex: 1,
-
     alignItems: "center",
   },
   containerDark: {

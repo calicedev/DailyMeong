@@ -3,7 +3,8 @@ import { createAppContainer } from "react-navigation";
 import Feed from "../screens/feed";
 import StartRun from "../screens/startRun";
 import HomeScreen from "../screens/HomeScreen";
-import CameraScreen from "../screens/camera"
+
+
 
 const screens = {
   HomeScreen:{
@@ -15,9 +16,8 @@ const screens = {
   StartRun: {
     screen: StartRun,
   },
-  CameraScreen: {
-    screen: CameraScreen
-  }
+  
+  
 };
 
 const HomeStack = createStackNavigator(screens, {
