@@ -1,9 +1,10 @@
 
-# RunMapper
+# DailyMeong
 
-RunMapper is a GPS fitness-tracking app for iOS that helps users measure their progress to become stronger runners. Users can track their runs and record key metrics such as time, distance, average pace, calories burned, and run paths.
+반려견을 키우는 가구의 증가에 따라 전문가들이 반려견 산책의 중요성을 강조하지만 의식을 하지 않는다면 매일 산책을 하는 건 쉽지 안습니다. 
+이 어플은 산책에 대한 흥므 유발과 더불어 매일 꾸준한 산책을 반려견에게 제공하고자 만들었습니다. 
 
-Built by Sharan Patel & Haran Ravindran
+Built by IMNOW
 
 ### Built With
 
@@ -13,50 +14,3 @@ Built by Sharan Patel & Haran Ravindran
 - [Firebase Authentication](https://firebase.google.com/docs/auth)
 - [Cloud Firestore](https://firebase.google.com/docs/firestore/)
 
-# Demo
-
-|	|	|
-:-------------------------:|:-------------------------:
-![Screenshot 1](https://user-images.githubusercontent.com/65983320/130494170-bc0e2ebe-e686-4dbe-b765-0585d4917f16.png) |  ![Screenshot 2](https://user-images.githubusercontent.com/65983320/130494178-407a7af1-fdff-4177-be87-e02ebec0c9ef.png)
-
-https://user-images.githubusercontent.com/65983320/132959158-c9fe2957-e200-4bce-8863-fbba5d948910.mp4
-
-# Getting Started
-
-### Prerequisites
-
-Install NPM
-
-```
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Clone the repo
-
-```
-git clone https://github.com/SharanPatel/RunMapper.git
-```
-
-2. Navigate to directory and install dependencies
-
-```
-npm install
-```
-
-3. Start local development environment
-
-```
-npm start
-```
-
-Once started, click the option to open an iOS simulator or download the expo app and scan the QR code. You're now ready to start developing!
-
-# Contact
-
-Sharan Patel - contact@sharanpatel.ca - www.sharanpatel.ca
-
-Double Degree BCS & BBA 2025 Candidate
-
-University of Waterloo
