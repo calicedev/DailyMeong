@@ -14,5 +14,5 @@ Built by IMNOW
 - [Firebase Authentication](https://firebase.google.com/docs/auth)
 - [Cloud Firestore](https://firebase.google.com/docs/firestore/)
 
-
+### Info
 <img width="623" alt="스크린샷 2022-02-06 오전 3 33 16" src="https://user-images.githubusercontent.com/53232881/152654480-4121bbc9-4b7e-4a95-9f51-69553a6b12d1.png">
